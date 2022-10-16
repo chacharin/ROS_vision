@@ -26,7 +26,14 @@ $ roslaunch usb_cam usb_cam-test.launch
 
 $ roslaunch opencv_apps face_detection.launch 
 
-แก้ไฟล์ launch ตั้งค่า OpenCV version
+    แก้ไฟล์ launch ตั้งค่า OpenCV version
+    $ roscd opencv_apps/launch
+    $ sudo gedit face_detection.launch 
 
-$ sudo gedit face_detection.launch 
+การเรียกใช้ hough_circles
+$ roslaunch opencv_apps hough_circles.launch
+
+    แก้ไฟล์ launch ตั้งค่า OpenCV version
+    $ roscd opencv_apps/launch
+    $ sudo gedit hough_circles.launch 
 
