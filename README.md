@@ -31,6 +31,7 @@ $ roslaunch opencv_apps face_detection.launch
     $ sudo gedit face_detection.launch 
 
 การเรียกใช้ hough_circles
+
 $ roslaunch opencv_apps hough_circles.launch
 
     แก้ไฟล์ launch ตั้งค่า OpenCV version
